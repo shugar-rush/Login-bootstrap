@@ -1,0 +1,23 @@
+
+:root {
+  --fontFamily: 'Inconsolata', monospace;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--fontFamily);
+}
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #8793ff 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-gradient-primary-to-secondary,
+.main-btn {
+  background: #1e30f3;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
